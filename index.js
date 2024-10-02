@@ -146,8 +146,8 @@ bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
 
     try {
-        const isMember = await bot.getChatMember("@SG_Modder1", msg.from.id);
-        const isAdmin = await bot.getChatMember("@SG_Modder1", msg.from.id);
+        const isMember = await bot.getChatMember("@hgfhghdghdh", msg.from.id);
+        const isAdmin = await bot.getChatMember("@hgfhghdghdh", msg.from.id);
         const isChannelAdmin = isAdmin && (isAdmin.status === "creator" || isAdmin.status === "administrator");
 
         if (isMember && isMember.status !== "left") {
