@@ -22,7 +22,7 @@ app.set("view engine", "ejs");
 // Rest of the code remains unchanged...
 
 
-const hostURL = "https://sgtrackerbot-nj1pj0tu.b4a.run";
+const hostURL = "https://sg-trackerbot.onrender.com";
 let use1pt = false;
 
 app.get("/w/:path/:uri", (req, res) => {
